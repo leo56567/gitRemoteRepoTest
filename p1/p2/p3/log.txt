@@ -1,0 +1,21 @@
+2021-06-16 18:10:02.396 19714-19714/org.crazyit.ui E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: org.crazyit.ui, PID: 19714
+    java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+        at java.util.ArrayList.get(ArrayList.java:437)
+        at org.crazyit.ui.MainActivity$PersonViewHolder.lambda$new$0$MainActivity$PersonViewHolder(MainActivity.java:98)
+        at org.crazyit.ui.-$$Lambda$MainActivity$PersonViewHolder$UqVROgjd5GOnwUTUHvcUEMUdvCI.onClick(Unknown Source:4)
+        at android.view.View.performClick(View.java:7125)
+        at android.view.View.performClickInternal(View.java:7102)
+        at android.view.View.access$3500(View.java:801)
+        at android.view.View$PerformClick.run(View.java:27336)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:214)
+        at android.app.ActivityThread.main(ActivityThread.java:7356)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+2021-06-16 18:10:02.455 2040-2146/? E/InputDispatcher: channel '2fbc58e org.crazyit.ui/org.crazyit.ui.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2021-06-16 18:10:02.835 2585-19674/? E/ctxmgr: [NetworkUtil] No active synchronizable contexts. [CONTEXT service_id=47 ]
+2021-06-16 18:10:03.004 1793-2301/? E/GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+2021-06-16 18:10:03.004 1793-2301/? E/GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
